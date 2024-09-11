@@ -18,7 +18,7 @@ export default function About(){
         <ul>
             <li>coding</li>
             <li>gym</li>
-            <li>fnaf</li>
+            <li>FNAF</li>
             <li>fashion</li>
             <li>Pad See Ew </li>
         </ul>
