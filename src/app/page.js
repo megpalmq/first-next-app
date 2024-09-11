@@ -37,7 +37,7 @@ export default function Home() {
 
   const isTuesday = false;
 
-
+  return (
     <main>
       <nav className={homeStyles.homeNav}>
         <ul>
@@ -56,5 +56,5 @@ export default function Home() {
       <p>Is it Tuesday: {String(isTuesday)}</p>
       <button onClick={openModal}>View Sun</button>
     </main>
-
+  );
 } 
