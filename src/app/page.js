@@ -56,6 +56,8 @@ export default function Home() {
       <p>Is it Tuesday: {String(isTuesday)}</p>
       <button onClick={openModal}>View Sun</button>
       <hr></hr>
+
+      <div className={homeStyles.productsList}>
       <div className={homeStyles.product}>
         <h2>Tofu</h2>
         <p>This is 100% tofu</p>
@@ -66,7 +68,14 @@ export default function Home() {
       <div className={homeStyles.product}>
         <h2>Spam</h2>
         <p>This is 100% spam</p>
-        <img src="https://attic.sh/iaiqyajnsgek07gllf2u3570vq2a" alt="spam"></img>
+        <img src="https://attic.sh/iaiqyajnsgek07gllf2u3570vq2a" alt="tofu"></img>
+      </div>
+
+      <div className={homeStyles.product}>
+        <h2>Spinach</h2>
+        <p>This is 100% Spinach</p>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_rPKc_ZKInqmPwXZFA0HBMuAPVyEH1RydaA&s" alt="broccoli"></img>
+      </div>
       </div>
     </main>
   );
