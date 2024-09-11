@@ -57,4 +57,4 @@ export default function Home() {
       <button onClick={openModal}>View Sun</button>
     </main>
   );
-}
+} 
