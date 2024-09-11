@@ -1,0 +1,7 @@
+.interestList {
+    margin-left: 20px;
+}
+.interestList li{
+    list-style-image: url("/dog.webp") ;
+    
+}
