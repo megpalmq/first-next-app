@@ -55,6 +55,19 @@ export default function Home() {
       <p>Times Ty said: {number.join(', ')}</p>
       <p>Is it Tuesday: {String(isTuesday)}</p>
       <button onClick={openModal}>View Sun</button>
+      <hr></hr>
+      <div className={homeStyles.product}>
+        <h2>Tofu</h2>
+        <p>This is 100% tofu</p>
+        <img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/i/1d1c83da-7e31-4e77-916f-96faf7003173/d2z2tzw-033be9ea-1aee-4a43-bb37-12a615824631.png/v1/fit/w_700,h_700,q_70,strp/a_can_of_spam_by_zellfaze_d2z2tzw-375w-2x.jpg" alt="spam"></img>
+      </div>
+
+      
+      <div className={homeStyles.product}>
+        <h2>Tofu</h2>
+        <p>This is 100% tofu</p>
+        <img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/i/1d1c83da-7e31-4e77-916f-96faf7003173/d2z2tzw-033be9ea-1aee-4a43-bb37-12a615824631.png/v1/fit/w_700,h_700,q_70,strp/a_can_of_spam_by_zellfaze_d2z2tzw-375w-2x.jpg" alt="spam"></img>
+      </div>
     </main>
   );
 } 
