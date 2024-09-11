@@ -1,7 +1,8 @@
 .interestList {
-    margin-left: 20px;
+    margin-left: 200px;
+    height: 150px;
+    
 }
 .interestList li{
-    list-style-image: url("/dog.webp") ;
-    
+    font-size: 20px;
 }
